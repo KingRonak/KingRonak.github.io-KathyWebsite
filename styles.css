@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Workbench Dynamic'; /* Give your font a name */
+    src: url('WorkbenchDynamic.ttf') format('truetype'); /* Update the path and file format */
+    /* You can include additional sources for different file formats if needed */
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Kanit&family=Karma&family=Sixtyfour&display=swap');
+  
+
+
+body{
+    font-family: 'WorkBench Dynamic', sans-serif;
+     margin: 0 ;
+     padding: 0;
+    background-color: rgb(46,46,46);
+    color: rgb(255,255,255);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    
+    
+}
+
+#game
+{
+    display: flex;
+    background-color: rgb(32, 32, 32);
+
+}
+
+.card {
+    font-family: 'WorkBench Dynamic', serif;
+    width: 160px;
+    height: 120px;
+    background-color: rgb(26,26,255);
+    border-left: solid rgb(19,19,160) 10px;
+    border-right: solid rgb(11,11,91) 10px;
+    border-top: solid rgb(59, 59, 129) 10px;
+    border-bottom: solid rgb(23, 23, 183) 10px;
+    text-align: center;
+    font-size: 20px;
+    margin:5px;
+    padding:10px;
+    line-height: 50px;
+
+}
+
+.card-text {
+    font-family: 'Barlow Condensed', serif;
+    font-size: 20px; /* Adjust the font size as needed */
+}
+
+.first-button {
+    font-family: 'Barlow Condensed', serif;
+    height:50;
+    width:100;
+    font-size:medium;
+    margin:10px;
+    background-color: rgb(24,171,24);
+
+}
+
+.second-button {
+    font-family: 'Barlow Condensed', serif;
+    height:50;
+    width:100;
+    font-size:medium;
+    margin:10px;
+    background-color: rgb(190,57,37);
+    
+}
+
+
+.genre-title {
+
+    background-color: rgb(26, 26, 255);
+    text-align: center;
+    font-size: 20px;
+    margin:5px;
+    padding:5px;
+    line-height: 5px;  
+
+}
+
+.correct-answer {
+
+        background-color: rgb(116, 186, 24);
+}
+
+.wrong-answer {
+
+        background-color: rgb(221,64,56);
+}
+
+#goToNewPageButton {
+    position: fixed;
+    bottom: 10px; /* Adjust this value to control the distance from the bottom */
+    right: 10px; /* Adjust this value to control the distance from the right */
+    padding: 10px;
+    background-color: #3498db; /* Add your preferred background color */
+    color: #fff; /* Set the text color */
+    border: none;
+    cursor: pointer;
+  }
